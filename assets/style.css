@@ -204,6 +204,14 @@ header {
 }
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
+.arrow_button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.arrow_button:focus {
+    outline: none;
+}
 #banner .arrow {
     position: absolute;
 }
